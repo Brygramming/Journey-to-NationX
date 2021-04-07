@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Num12Square" size="0.150000 0.123241" />
+    <ImageTarget name="Num11Square" size="0.150000 0.124711" />
+    <ImageTarget name="Num10Square" size="0.150000 0.121303" />
+    <ImageTarget name="Num9Square" size="0.200000 0.166090" />
+    <ImageTarget name="Num8Square" size="0.200000 0.157377" />
+    <ImageTarget name="Num7Square" size="0.200000 0.194423" />
+    <ImageTarget name="Num6Square" size="0.200000 0.182561" />
+    <ImageTarget name="Num5Square" size="0.200000 0.178369" />
+    <ImageTarget name="Num4Square" size="0.200000 0.182414" />
+    <ImageTarget name="Num3Square" size="0.200000 0.190225" />
+    <ImageTarget name="Num2Square" size="0.200000 0.184615" />
+    <ImageTarget name="Num1Square" size="0.150000 0.125874" />
     <ImageTarget name="Picture-test-AR" size="0.150000 0.084375" />
     <ImageTarget name="ExtraGum" size="0.150000 0.122306" />
   </Tracking>
