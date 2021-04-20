@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 79efe9b65b159144ab68767fddd75af6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MARSNEVENEKSK
+  fontNames:
+  - MARSNEVENEKSK
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8579efffe1a07f9449a72b4b12023607, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
