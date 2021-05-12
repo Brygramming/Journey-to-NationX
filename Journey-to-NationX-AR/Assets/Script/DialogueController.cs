@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueController : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class DialogueController : MonoBehaviour
     public string[] Sentences;
     private int Index = 0;
     public float DialogueSpeed;
+
 
     void Start()
     {
