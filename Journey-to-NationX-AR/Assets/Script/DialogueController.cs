@@ -34,7 +34,7 @@ public class DialogueController : MonoBehaviour
     }
     public void PrevSentence()
     {
-        Index -= 2;
+        Index--;
         DialogueText.text = "";
         StartCoroutine(WriteSentences());
     }
