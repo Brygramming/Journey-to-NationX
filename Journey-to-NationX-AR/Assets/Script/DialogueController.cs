@@ -18,13 +18,19 @@ public class DialogueController : MonoBehaviour
         
     }
 
-    void NextSentence()
+    public void NextSentence()
     {
         if (Index <= Sentences.Length - 1)
         {
             DialogueText.text = "";
             StartCoroutine(WriteSentences());
         }
+    }
+    public void PrevSentence()
+    {
+        Index -= 2;
+        DialogueText.text = "";
+        StartCoroutine(WriteSentences());
     }
 
     IEnumerator WriteSentences()
