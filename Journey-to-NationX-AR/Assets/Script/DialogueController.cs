@@ -6,12 +6,11 @@ using TMPro;
 
 public class DialogueController : MonoBehaviour
 {
-    /*[Header("Canvas")]
-    public Canvas MainDialogue;
-    public Vector3 DialoguePosition;*/
-
-    [Header("Texts")]
-    public Text DialogueText;
+    //This is where text writes
+    [Header("Text Dialogues")]
+    public Text DialogueTextPage1;
+    public Text DialogueTextPage2;
+    public Text DialogueTextPage3;
     public string[] Sentences;
     private int Index = 0;
     [Range(0f, 1f)]
@@ -27,7 +26,9 @@ public class DialogueController : MonoBehaviour
         Index++;
         if (Index <= Sentences.Length - 1)
         {
-            DialogueText.text = "";
+            DialogueTextPage1.text = "";
+            DialogueTextPage2.text = "";
+            DialogueTextPage3.text = "";
             StartCoroutine(WriteSentences());
         }
         //MoveCanvas();
@@ -35,7 +36,9 @@ public class DialogueController : MonoBehaviour
     public void PrevSentence()
     {
         Index--;
-        DialogueText.text = "";
+        DialogueTextPage1.text = "";
+        DialogueTextPage2.text = "";
+        DialogueTextPage3.text = "";
         StartCoroutine(WriteSentences());
     }
 
@@ -43,7 +46,9 @@ public class DialogueController : MonoBehaviour
     {
         foreach (char Character in Sentences[Index].ToCharArray())
         {
-            DialogueText.text += Character;
+            DialogueTextPage1.text += Character;
+            DialogueTextPage2.text += Character;
+            DialogueTextPage3.text += Character;
             yield return new WaitForSeconds(DialogueSpeed);
         }
         //Index++;
